@@ -1,0 +1,229 @@
+-- Question 1, Version A
+
+CRIMINAL_ID LAST            FIRST      CRIME_CODE FINE_AMOUNT
+----------- --------------- ---------- ---------- -----------
+       1020 Phelps          Sam               301        3000 
+       1020 Phelps          Sam               305        1000 
+       1021 Sums            Tammy             304         200 
+       1022 Caulk           Dave              305         100 
+       1023 Dabber          Pat               306             
+       1025 Cat             Tommy             305         100 
+       1026 Simon           Tim               305         100 
+       1027 Pints           Reed              305         100 
+       1028 Mansville       Nancy             305         100 
+       1024 Perry           Cart              305         100 
+       1029 Statin          Penny             305          50 
+       1030 Panner          Lee               305          50 
+       1030 Panner          Lee               305          50 
+
+ 13 rows selected 
+
+ 
+ 
+ 
+ -- Question 1, Version B
+ 
+CRIMINAL_ID LAST            FIRST      CRIME_CODE FINE_AMOUNT
+----------- --------------- ---------- ---------- -----------
+       1020 Phelps          Sam               301        3000 
+       1020 Phelps          Sam               305        1000 
+       1021 Sums            Tammy             304         200 
+       1022 Caulk           Dave              305         100 
+       1023 Dabber          Pat               306             
+       1025 Cat             Tommy             305         100 
+       1026 Simon           Tim               305         100 
+       1027 Pints           Reed              305         100 
+       1028 Mansville       Nancy             305         100 
+       1024 Perry           Cart              305         100 
+       1029 Statin          Penny             305          50 
+       1030 Panner          Lee               305          50 
+       1030 Panner          Lee               305          50 
+
+ 13 rows selected 
+
+ 
+ 
+ 
+ 
+ -- Question 2, Version A
+ 
+CRIMINAL_ID LAST            FIRST      Crime Status CLASSIFICATION DATE_CHARGED FILING_DATE Appeal Status
+----------- --------------- ---------- ------------ -------------- ------------ ----------- -------------
+       1022 Caulk           Dave       IA           M              30-OCT-08    10-DEC-08   A             
+       1021 Sums            Tammy      CL           M              20-OCT-08    15-DEC-08   A             
+       1020 Phelps          Sam        CA           F              03-SEP-08    20-SEP-08   A             
+       1027 Pints           Reed       CA           M              24-OCT-08                              
+       1025 Cat             Tommy      CA           M              22-OCT-08                              
+       1030 Panner          Lee        CA           M              26-OCT-08                              
+       1030 Panner          Lee        CL           M              18-NOV-08                              
+       1029 Statin          Penny      CA           M              26-OCT-08                              
+       1028 Mansville       Nancy      CA           M              24-OCT-08                              
+       1023 Dabber          Pat        CA           O              05-NOV-08                              
+       1024 Perry           Cart       CA           M              22-OCT-08                              
+       1026 Simon           Tim        CA           M              22-OCT-08                              
+
+ 12 rows selected 
+
+ 
+ 
+ 
+ 
+ -- Question 2, Version B
+ 
+CRIMINAL_ID LAST            FIRST      Crime Status CLASSIFICATION DATE_CHARGED FILING_DATE Appeal Status
+----------- --------------- ---------- ------------ -------------- ------------ ----------- -------------
+       1022 Caulk           Dave       IA           M              30-OCT-08    10-DEC-08   A             
+       1021 Sums            Tammy      CL           M              20-OCT-08    15-DEC-08   A             
+       1020 Phelps          Sam        CA           F              03-SEP-08    20-SEP-08   A             
+       1027 Pints           Reed       CA           M              24-OCT-08                              
+       1025 Cat             Tommy      CA           M              22-OCT-08                              
+       1030 Panner          Lee        CA           M              26-OCT-08                              
+       1030 Panner          Lee        CL           M              18-NOV-08                              
+       1029 Statin          Penny      CA           M              26-OCT-08                              
+       1028 Mansville       Nancy      CA           M              24-OCT-08                              
+       1023 Dabber          Pat        CA           O              05-NOV-08                              
+       1024 Perry           Cart       CA           M              22-OCT-08                              
+       1026 Simon           Tim        CA           M              22-OCT-08                              
+
+ 12 rows selected 
+
+ 
+ 
+ 
+ 
+-- Question 3, Version A 
+
+CRIMINAL_ID LAST            FIRST      CLASSIFICATION DATE_CHARGED CRIME_CODE FINE_AMOUNT
+----------- --------------- ---------- -------------- ------------ ---------- -----------
+       1023 Dabber          Pat        O              05-NOV-08           306             
+
+	   
+	   
+	   
+	   
+-- Question 3, Version B	
+   
+CRIMINAL_ID LAST            FIRST      CLASSIFICATION DATE_CHARGED CRIME_CODE FINE_AMOUNT
+----------- --------------- ---------- -------------- ------------ ---------- -----------
+       1023 Dabber          Pat        O              05-NOV-08           306             
+
+	   
+	   
+	   
+	   
+-- Question 4, Version A 	   
+
+CRIMINAL_ID LAST            FIRST      V_STATUS P_STATUS ALIAS              
+----------- --------------- ---------- -------- -------- --------------------
+       1025 Cat             Tommy      N        Y                             
+       1022 Caulk           Dave       N        Y        Cabby                
+       1023 Dabber          Pat        N        N                             
+       1028 Mansville       Nancy      N        Y                             
+       1030 Panner          Lee        N        Y                             
+       1024 Perry           Cart       N        Y                             
+       1020 Phelps          Sam        Y        N        Bat                  
+       1027 Pints           Reed       N        Y                             
+       1026 Simon           Tim        N        Y                             
+       1029 Statin          Penny      N        Y                             
+       1021 Sums            Tammy      N        Y                             
+
+ 11 rows selected 
+ 
+
+ 
+ 
+ 
+-- Question 4, Version B 
+
+CRIMINAL_ID LAST            FIRST      V_STATUS P_STATUS ALIAS              
+----------- --------------- ---------- -------- -------- --------------------
+       1025 Cat             Tommy      N        Y                             
+       1022 Caulk           Dave       N        Y        Cabby                
+       1023 Dabber          Pat        N        N                             
+       1028 Mansville       Nancy      N        Y                             
+       1030 Panner          Lee        N        Y                             
+       1024 Perry           Cart       N        Y                             
+       1020 Phelps          Sam        Y        N        Bat                  
+       1027 Pints           Reed       N        Y                             
+       1026 Simon           Tim        N        Y                             
+       1029 Statin          Penny      N        Y                             
+       1021 Sums            Tammy      N        Y                             
+
+ 11 rows selected 
+
+ 
+ 
+ 
+ 
+-- Question 5, Version A 	    
+
+LAST            FIRST      START_DATE END_DATE  # of Probation Days    LOW_AMT   HIGH_AMT CON_FREQ           
+--------------- ---------- ---------- --------- ------------------- ---------- ---------- --------------------
+Cat             Tommy      20-DEC-08  20-MAR-09                  90         81        160 Every 2 weeks        
+Caulk           Dave       20-MAR-09  20-AUG-09                 153         81        160 Every 2 weeks        
+Mansville       Nancy      20-DEC-08  20-MAR-09                  90         81        160 Every 2 weeks        
+Panner          Lee        20-DEC-08  05-FEB-09                  47          1         80 Weekly               
+Panner          Lee        06-FEB-09  06-JUL-09                 150         81        160 Every 2 weeks        
+Perry           Cart       20-DEC-08  20-MAR-09                  90         81        160 Every 2 weeks        
+Pints           Reed       20-DEC-08  20-MAR-09                  90         81        160 Every 2 weeks        
+Simon           Tim        20-DEC-08  20-MAR-09                  90         81        160 Every 2 weeks        
+Statin          Penny      20-DEC-08  05-FEB-09                  47          1         80 Weekly               
+Sums            Tammy      05-DEC-08  05-JUN-09                 182        161        500 Monthly              
+
+ 10 rows selected 
+
+ 
+ 
+ 
+ 
+-- Question 5, Version B 
+	     
+LAST            FIRST      START_DATE END_DATE  # of Probation Days    LOW_AMT   HIGH_AMT CON_FREQ           
+--------------- ---------- ---------- --------- ------------------- ---------- ---------- --------------------
+Cat             Tommy      20-DEC-08  20-MAR-09                  90         81        160 Every 2 weeks        
+Caulk           Dave       20-MAR-09  20-AUG-09                 153         81        160 Every 2 weeks        
+Mansville       Nancy      20-DEC-08  20-MAR-09                  90         81        160 Every 2 weeks        
+Panner          Lee        20-DEC-08  05-FEB-09                  47          1         80 Weekly               
+Panner          Lee        06-FEB-09  06-JUL-09                 150         81        160 Every 2 weeks        
+Perry           Cart       20-DEC-08  20-MAR-09                  90         81        160 Every 2 weeks        
+Pints           Reed       20-DEC-08  20-MAR-09                  90         81        160 Every 2 weeks        
+Simon           Tim        20-DEC-08  20-MAR-09                  90         81        160 Every 2 weeks        
+Statin          Penny      20-DEC-08  05-FEB-09                  47          1         80 Weekly               
+Sums            Tammy      05-DEC-08  05-JUN-09                 182        161        500 Monthly              
+
+ 10 rows selected 
+
+ 
+ 
+ 
+ 
+-- Question 6, Version A 	     
+
+Officer Name                Supervisor Name           
+--------------------------- ---------------------------
+Boyle, Chris                Peek, Susan                 
+Hawk, Fred                  Taps, George                
+Peek, Susan                 ,                           
+Ponds, Terry                Taps, George                
+Speckle, Jeff               Peek, Susan                 
+Taps, George                ,                           
+
+ 6 rows selected 
+
+ 
+ 
+ 
+ 
+-- Question 6, Version B 	
+      
+Officer Name                Supervisor Name           
+--------------------------- ---------------------------
+Boyle, Chris                Peek, Susan                 
+Hawk, Fred                  Taps, George                
+Peek, Susan                 ,                           
+Ponds, Terry                Taps, George                
+Speckle, Jeff               Peek, Susan                 
+Taps, George                ,                           
+
+ 6 rows selected 
+
